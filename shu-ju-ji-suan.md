@@ -40,7 +40,7 @@
 
    **自定义对比**  
    同比与环比计算支持自定义对比，目前支持计算对比前N天/N周/N月的数据，如下图：  
-   ![](http://help.yangjiangs.top/assets/15019135571032.png)
+   ![](http://help.yangjiangs.cc/assets/15019135571032.png)
 
    **维度为非日期类型的情况**  
    ① 选择要计算同比环比的参考时间字段（日志表的时间字段），然后选择时间聚合粒度（按日，周，月，年）  
@@ -60,7 +60,7 @@
    **（目前仅支持维度为日期字段）**维度为日期字段  
    维度为日期字段时，由于其时间范围在横轴（维度）已经划分清楚，因此可以直接选择留存周期即可。  
    以下图为例，我们按天统计新增用户的留存情况，那么在横轴的每个项目就代表一天的时间范围。  
-   ![](http://help.yangjiangs.top/assets/%E7%95%99%E5%AD%98%E8%AE%A1%E7%AE%97.gif)
+   ![](http://help.yangjiangs.cc/assets/%E7%95%99%E5%AD%98%E8%AE%A1%E7%AE%97.gif)
 
 **表格行/列汇总计算**
 
@@ -68,11 +68,11 @@
 
 2、使用列总计的时候，判断现有表格数据具有多少个列，并将这些列的表头名称，显示为可以更换计算方式的选项，如下图所示：
 
-![](http://help.yangjiangs.top/assets/%E8%A1%A8%E6%A0%BC%E7%B1%BB%E5%9E%8B.png)
+![](http://help.yangjiangs.cc/assets/%E8%A1%A8%E6%A0%BC%E7%B1%BB%E5%9E%8B.png)
 
 **表格列与列计算**
 
 用户在使用过程中，需要对比某两列的数据，或者汇总某两列的数据，需要用到此功能：
 
-![](http://help.yangjiangs.top/assets/%E8%A1%A8%E6%A0%BC%E5%88%97%E8%AE%A1%E7%AE%97.png)![](http://help.yangjiangs.top/assets/%E8%A1%A8%E6%A0%BC%E5%88%97%E8%AE%A1%E7%AE%972.png)
+![](http://help.yangjiangs.cc/assets/%E8%A1%A8%E6%A0%BC%E5%88%97%E8%AE%A1%E7%AE%97.png)![](http://help.yangjiangs.cc/assets/%E8%A1%A8%E6%A0%BC%E5%88%97%E8%AE%A1%E7%AE%972.png)
 
