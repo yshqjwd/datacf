@@ -1,6 +1,8 @@
-定制配置页面右边栏提供了多种图表类型，可以在维度轴和数值轴拉上数据列后，根据需求选择图表展示数据
+在进行拖拽操作后，数据配方首先会自动选择最适合当前数据的图表类型，也可以根据需求切换为其他图表。
 
-![](http://help.yangjiangs.top/assets/tubiaogenghuan.png)
+数据配方提供了丰富美观的图表类型，将数据以最合适的方式进行展示和分析。所有支持的图表类型均显示在右上方的区域，正常状态表示可以进行切换，置灰状态表示当前所选的数据不适合此图表类型。
+
+![](http://www.datacf.com/userManual/assets/tubiaogenghuan.png)
 
 | 图表类型 | 维度和数值规则限制 | 是否支持维度对比 |
 | :--- | :--- | :--- |
@@ -21,7 +23,7 @@
 表格可以同时分析多维度和多类型数据。  
 配置规则：0 个或多个维度，0 个或多个数值，支持对比。  
 最大显示数据记录数量：1000  
-![](http://help.yangjiangs.top/assets/%E8%A1%A8%E6%A0%BC%E7%B1%BB%E5%9E%8B.png)
+![](http://www.datacf.com/userManual/assets/%E8%A1%A8%E6%A0%BC%E7%B1%BB%E5%9E%8B.png)
 
 * 在使用表格时，用户选择显示行/列总计时，系统自动计算显示表格内的汇总/平均数据，用户根据喜好，可以调整显示位置；
 
@@ -32,34 +34,34 @@
 **2. 指标卡**  
 指标卡可以直观的看出某项数据的内容，也可以直观地看对比数据的状态。  
 配置规则：0个维度，1个或2个数值，不支持对比  
-![](http://help.yangjiangs.top/assets/%E6%8C%87%E6%A0%87%E5%8D%A1%E7%B1%BB%E5%9E%8B.png)
+![](http://www.datacf.com/userManual/assets/%E6%8C%87%E6%A0%87%E5%8D%A1%E7%B1%BB%E5%9E%8B.png)
 
 **3. 扇形图**  
 扇形图可以分析多数值类型的占比情况。  
 配置规则：1个维度和1个数值 或 0个维度和多个数值，不支持对比  
 最大显示数据记录数量：1000  
-![](http://help.yangjiangs.top/assets/%E6%89%87%E5%BD%A2%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)
+![](http://www.datacf.com/userManual/assets/%E6%89%87%E5%BD%A2%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)
 
 **4. 折线图**  
 折线图可以用于观察多个指标数据变化的趋势，提供多个指标数据之间进行比较。  
 配置规则：1个或2个维度，1个或多个数值，支持对比  
 最大显示数据记录数量：1000  
-![](http://help.yangjiangs.top/assets/%E6%8A%98%E7%BA%BF%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
-![](http://help.yangjiangs.top/assets/%E6%8A%98%E7%BA%BF%E5%9B%BE%E7%B1%BB%E5%9E%8B%EF%BC%88%E5%AF%B9%E6%AF%94%EF%BC%89.png)
+![](http://www.datacf.com/userManual/assets/%E6%8A%98%E7%BA%BF%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
+![](http://www.datacf.com/userManual/assets/%E6%8A%98%E7%BA%BF%E5%9B%BE%E7%B1%BB%E5%9E%8B%EF%BC%88%E5%AF%B9%E6%AF%94%EF%BC%89.png)
 
 **5. 面积图**  
 面积图作用和折线图类似，可以用于观察多个指标数据变化的趋势，提供多个指标数据之间进行比较。  
 配置规则：1个或2个维度，1个或多个数值，支持对比  
 最大显示数据记录数量：1000  
-![](http://help.yangjiangs.top/assets/%E9%9D%A2%E7%A7%AF%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
-![](http://help.yangjiangs.top/assets/%E9%9D%A2%E7%A7%AF%E5%9B%BE%E7%B1%BB%E5%9E%8B%EF%BC%88%E5%AF%B9%E6%AF%94%EF%BC%89.png)
+![](http://www.datacf.com/userManual/assets/%E9%9D%A2%E7%A7%AF%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
+![](http://www.datacf.com/userManual/assets/%E9%9D%A2%E7%A7%AF%E5%9B%BE%E7%B1%BB%E5%9E%8B%EF%BC%88%E5%AF%B9%E6%AF%94%EF%BC%89.png)
 
 **6. 柱形图**  
 柱形图可以用于观察多个指标数据，提供多个指标数据之间进行比较，直观的看出差异。  
 配置规则：1个或2个维度，1个或多个数值，支持对比  
 最大显示数据记录数量：1000  
-![](http://help.yangjiangs.top/assets/%E6%9F%B1%E5%BD%A2%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
-![](http://help.yangjiangs.top/assets/%E6%9F%B1%E5%BD%A2%E5%9B%BE%E7%B1%BB%E5%9E%8B%EF%BC%88%E5%AF%B9%E6%AF%94%EF%BC%89.png)![](http://help.yangjiangs.top/assets/hengxiangzhuxingtu.png)
+![](http://www.datacf.com/userManual/assets/%E6%9F%B1%E5%BD%A2%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
+![](http://www.datacf.com/userManual/assets/%E6%9F%B1%E5%BD%A2%E5%9B%BE%E7%B1%BB%E5%9E%8B%EF%BC%88%E5%AF%B9%E6%AF%94%EF%BC%89.png)![](http://www.datacf.com/userManual/assets/hengxiangzhuxingtu.png)
 
 **7. 散点图**（暂不支持）  
 散点图常用于显示和比较数值。发现变量之间是否存在数量关联趋势，以及是否存在异常离群的数值，帮助定位发现问题。  
@@ -79,12 +81,12 @@
 漏斗转化图，可以很清晰的发现每个步骤类别的转化程度，发现异常步骤，定位问题。  
 配置规则：1个维度，1个数值 或 0个维度，多个数值  
 最大显示数据记录数量：1000  
-![](http://help.yangjiangs.top/assets/%E8%BD%AC%E5%8C%96%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
-![](http://help.yangjiangs.top/assets/zhuanhuatu.png)
+![](http://www.datacf.com/userManual/assets/%E8%BD%AC%E5%8C%96%E5%9B%BE%E7%B1%BB%E5%9E%8B.png)  
+![](http://www.datacf.com/userManual/assets/zhuanhuatu.png)
 
 **11. 双轴图**  
 柱形图和折线图的组合图，能够同时支持两个纵轴，更直观的形成数据对比。  
 配置规则：1个或多个维度，1个或多个数值：Y轴，1个或多个数值：次轴  
 最大显示数据记录数量：1000  
-![](http://help.yangjiangs.top/assets/%E5%8F%8C%E8%BD%B4%E5%9B%BE.png)
+![](http://www.datacf.com/userManual/assets/%E5%8F%8C%E8%BD%B4%E5%9B%BE.png)
 
